@@ -1,0 +1,70 @@
+ <!--
+    Forms are used to collect data from the user 
+    Eg: Signup/login/help requests/contact me 
+
+
+    Form Element: Input
+    <input type="text"palceholder="EnterName">
+
+    in Input we are assigning the label
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h3>Registration Form</h3>
+    <form action="/action.php">
+    
+    <input type ="text" placeholder ="Enter Username">
+    <br><br>
+
+    <input type="text" placeholderv="Password">
+    <br>
+
+<label for="101"> 
+    <input type="radio" value ="class XI" name="class"id="101">class XI
+</label>
+<br>
+
+<label for="102"> 
+    <input type="radio" value ="class XI" name="class" id="102">class XII
+</label>
+<br>
+
+<h5>Select your subject</h5>
+<br>
+<label for="Maths"> Maths</label>
+<input type="checkbox" value="Maths"name="subject" id="101">
+
+<br>
+<label for="Phy">Phy</label>
+    <input type="checkbox" value="Phy"name="subject" id="102">
+
+<br>
+<label for="chem">Chem</label>
+    <input type="checkbox" value="chem" name ="subject" id="103">
+    <br> <br>
+
+    <select name="city"> 
+    <option value="Delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Banglore">Banglore</option>
+    </select>
+
+    <br> <br>
+
+    <textarea name="feedback" id="101"placeholder ="please give your valueable feedback here " rows="6"> feedback
+
+    </textarea>
+
+    <br>
+    
+
+    
+</form>
+ </body>
+ </html>
